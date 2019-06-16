@@ -1,0 +1,533 @@
+/*buttona*/
+@media(max-width: 768px){
+	.default-b-btn{
+		width: 100px !important;
+		height: 40px !important;
+		margin: 10px;
+	}
+
+	.default-btn{
+	  height: 30px;
+	  padding: 0px 15px !important;
+	  border-radius: 5px;
+	  background-color: #236df8;
+	  color: #FFFFFF;
+	  font-weight: 600;
+	  box-shadow:  inset 0px 0px 20px rgba(0,0,0,.1);
+	}
+	.default-btn-o{
+		padding: 10px 15px;
+		background: transparent;
+		border: 1.5px solid #007aff;
+		border-radius: 3px;
+		font-size: 14px;
+	}
+	.default-btn-o-1{
+		margin: 5px;
+		padding: 10px 15px;
+		background: rgba(0,100,200,.5);
+		border: 1.5px solid #6a92fa;
+		border-radius: 5px;
+		font-size: 14px;
+	}
+	/*Pagination*/
+	.pagination a{
+		padding: 10px;
+		font-size: 16px;
+	}
+}
+
+
+
+
+/*Main Responsiveness -Tablet*/
+@media(max-width: 1000px){
+	.inner-container{
+		width: 95%;
+	}
+	.in-content-wrapper .sidebar{
+		width: 100%;
+		max-width: 300px;
+		left: -1000px;
+		position: absolute;
+		top: 0px;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 0px;
+		border-top-left-radius: 0px;
+		box-shadow: 10px 10px 30px rgba(0,0,0, .2);
+		min-height: 100vh;
+		z-index: 99999;
+	}
+	.sidebar-trigger{
+		display: block;
+		left: -22px;
+	}
+	/*Tabs*/
+	.main-content .log-tabs{
+		margin: 25px 0px;
+		padding: 0px;
+		justify-content: center;
+	}
+}
+@media(max-width: 960px){
+	.header{
+		padding:20px;
+	}
+	#top-top{
+		margin-top: 200px;
+	}
+	.header .head-header{
+		padding:10px 0px;
+	}
+	.header .head-header .burger{
+		display: block;
+	}
+	#desktopNav{
+		display: none;
+	}
+	#mobileNav{
+		padding-bottom: 20px;
+		display: flex;
+		position: fixed;
+		right: -1000px;
+		top: 0px;
+		background-color: #FFFFFF;
+		width: 70%;
+		height: 100vh;
+		border:1px solid #eee;
+		box-shadow: 10px 10px 30px rgba(0,0,0, .2);
+		z-index: 9999999999;
+	}
+	#mobileNav .nav-wrap{
+		display: block;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		overflow-y: scroll;
+		width: 100%;
+		height: 100%;
+	}
+	#mobileNav nav{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		text-align: left;
+		padding: 10px;
+	}
+	#mobileNav nav:first-child{
+		border-right: 1px solid #EEEEEE;
+	}
+	#mobileNav nav li{
+		display: block !important;
+		margin-bottom: 20px;
+		align-self: flex-start;
+	}
+	#mobileNav nav button{
+		margin-bottom: 20px;
+	}
+
+
+}
+@media(max-width: 768px){
+	/*Global*/
+	.inner-container{
+		width: 100%;
+		margin: 0px auto;
+	}
+	.sidebar-trigger{
+		display: block;
+		left: 0px;
+	}
+
+	/*Header*/
+	/*Header section*/
+	.header{
+		padding: 20px;
+	}
+
+		/*MAIN SITE STYING*/
+	.in-content-wrapper .main-content{
+		padding: 3px;
+	}
+	.in-content-wrapper{
+		widows: 100%;
+	}
+	.in-content-wrapper > div{
+		padding: 20px;
+	}
+	.inner-container .top-box{
+		padding: 10px;
+		flex-direction: column;
+		align-items: stretch;
+	}
+	/*Tabs*/
+	.main-content .wallet-bar .amount{
+		font-size: 40px;
+	}
+
+
+	/*Main content wrapper*/
+
+	.main-content  .inventory-table table > *{
+		margin-left: -20px;
+	}
+	.main-content  .inventory-table table thead{
+		padding-left: 0px
+	}
+	.main-content  .inventory-table table thead th{
+		padding: 8px;
+	}
+	.main-content  .inventory-table table tbody tr{
+		font-weight: normal;
+	}
+
+	.main-content  .inventory-table table tbody td{
+		padding: 8px 5px;
+		font-size: 14px;
+	}
+
+
+	/*Manage jobs section*/
+
+	.manage-wrap .head{
+		background-color: #FFFFFF !important;
+		padding: 10px  0px !important;
+	}
+	.manage-wrap .head > div{
+		margin-bottom: 10px;
+		font-size: 18px;
+	}
+	.manage-wrap .jobs-tabs {
+		flex-direction: column;
+		text-align: center;
+	}
+	.manage-wrap .jobs-tabs:nth-child(odd){
+		background-color: rgba(0,0,0,.03);
+	}
+	.manage-wrap .jobs-tabs  > div{
+		width: 100%;
+	}
+	.manage-wrap .jobs-tabs .des{
+		display: flex !important;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 100%;
+		font-size: 16px;
+	}
+	.manage-wrap .jobs-tabs h4{
+		font-size: 16px;
+	}
+	.manage-wrap .jobs-tabs #action a{
+		margin: 20px;
+	}
+	.manage-wrap .jobs-tabs #action a svg{
+		width: 30px;
+	}
+
+
+
+
+	.footer{
+		padding: 10px;
+	}
+	/*Prefooter*/
+	.pre-footer .inner-container{
+		flex-direction: column;
+	}
+
+}
+
+@media(max-width: 700px){
+	/*Global*/
+	/**********Elements treated as global*/
+	.img-cont{
+		width: 80px;
+		height: 80px;
+	}
+	.img-cont img{
+		max-width: 100%;
+	}
+
+	 .placeholder svg{
+		width: 30px;
+	}
+
+	/*Uploaded images*/
+	.img-cont{
+		margin: 8px;
+		width: 80px;
+		height: 80px;
+	}
+	.img-cont #clear{
+		right: -5px;
+		top: -33px;
+		width: 25px;
+	}
+
+	.img-cont img{
+		max-width: 100%;
+		/*height: 100px;*/
+	}
+
+	 .placeholder svg{
+		fill: #DDDDDD;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		max-width: 50px;
+	}
+
+
+	/*Dashboard*/
+	/*********************/
+	#mobileNav .nav-wrap{
+		flex-direction: column;
+	}
+	#mobileNav nav:first-child{
+		border-right: none;
+		border-bottom:  1px solid #EEEEEE;
+	}
+
+	.header .alt-header .default-btn{
+		margin-top: 5px;
+		padding: 10px 20px !important;
+	}
+	.header .alt-header li{
+		display: block;
+		margin-bottom: 10px;
+		text-align: left;
+	}
+	/*Profile section*/
+	#profile .wallet-bar{
+		justify-content: center;
+		text-align: center;
+	}
+	#profile .update-image{
+		justify-content: center;
+	}
+
+	/*Market place*/
+	/*********************/
+	#market-place form .pdt-prop{
+		flex-direction: column;
+		width: 100% !important;
+	}
+	#market-place form .pdt-prop h4{
+		margin: 10px 0px;
+	}
+	#market-place .formatting{
+		/**/
+	}
+	#market-place .formatting .format-wrap{
+		max-width: 100% !important;
+	}
+	#market-place .grid.col.select{
+		width: 100%;
+	}
+	#market-place form .pdt-prop .map{
+		max-width: 100%;
+		margin-left: 0px;
+	}
+
+
+
+}
+
+
+@media(max-width: 600px){
+	.pagination a{
+		padding: 10px;
+		font-size: 14px;
+	}
+	/*Global buttons*/
+	.default-btn{
+	  height: 42px;
+	  padding: 0px 5px !important;
+	}
+	.default-btn-o{
+		padding: 10px 10px;
+	}
+	.default-btn-o-1{
+		padding: 10px;
+	}
+
+	/*Main content*/
+	.main-content .wallet-bar .amount{
+		font-size: 30px;
+	}
+	.main-content .log-tabs > div {
+		padding: 15px;
+		width: 100%;
+	}
+	.main-content .log-tabs > .tab > *{
+		margin: 3px 0px;
+	}
+	.main-content .log-tabs h2{
+		font-size: 30px;
+		letter-spacing: 2px;
+	}
+	.main-content .tab:nth-child(1){
+		background-image: linear-gradient(to left, #98d4f2, #92bdf8);
+		margin-left: 5px;
+	}
+	.main-content .tab:nth-child(3){
+		background-image: linear-gradient(to left, #98d4f2, #92bdf8);
+		margin-right: 5px;
+	}
+
+
+	/*Header*/
+	.header .logo{
+		max-width: 130px;
+	}
+
+	/*Inventory*/
+
+	.main-content .in-inventory{
+		padding:50px 10px;
+	}
+	.main-content .inventory-stat{
+		flex-direction: column;
+		align-items: stretch;
+		widows: 100%;
+	}
+	/*Activity*/
+
+	.main-content .activity > div{
+		padding: 10px;
+		border: 1.2px solid #EEEEEE;
+	}
+	.main-content .activity .head{
+		padding: 10px;
+	}
+
+	.pre-footer .inner-container .default-btn-o-1{
+		padding: 10px;
+	}
+	.footer .foot-links .in-footer > div{
+		margin-bottom: 20px;
+	}
+	.footer .attribute .to-top{
+		align-self: center;
+		margin: 50px auto 0px auto;
+
+	}
+	/*Profiile section*/
+	#profile-edit .form-wrapper .field{
+		flex-direction: column !important;
+	}
+	#profile-edit .form-wrapper .field > div{
+		margin-top: 10px;
+	}
+}
+@media(max-width: 550px){
+	#market-place .manage-wrap .jobs-tabs.head{
+		display: none;
+	}
+	#market-place .manage-wrap .jobs-tabs {
+		flex-direction: column;
+	}
+	#market-place .manage-wrap #status{
+		display: flex;
+		justify-content: center;
+
+	}
+	#market-place .manage-wrap #action .des {
+		display: flex;
+		justify-content: space-evenly;
+		width: 100%;
+		box-sizing: border-box;
+	}
+	#market-place .manage-wrap .jobs-tabs *{
+		/**/
+	}
+}
+
+@media(max-width: 500px){
+	.main-content  .inventory-table table{
+		display: flex;
+		flex-direction: column;
+		box-sizing: border-box;
+		padding-right: 0px;
+	}
+	.main-content  .inventory-table table thead tr{
+		display: flex;
+		flex-direction: column;
+	}
+	.main-content  .inventory-table table tbody tr{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.main-content  .inventory-table table tbody td{
+		padding: 8px 5px;
+		font-size: 14px;
+	}
+	#profile{
+		font-size: 14px;
+	}
+
+	/*MARKET PLACE*/
+	/********************/
+	#market-place .pdt-prop .selects .select{
+		flex-direction: column !important;
+	}
+	#market-place .pdt-prop .selects select{
+		padding: 10px;
+		margin-left: 0px;
+	}
+
+}
+@media(max-width: 400px){
+	/*Formatting*/
+	.formatting{
+		padding: 2px;
+		font-size: 12px;
+	}
+	.formatting .group{
+		padding: 8px;
+	}
+
+	/*Pagination*/
+	.pagination a{
+		padding: 8px;
+		font-size: 12px;
+		margin: 3px;
+	}
+		/*Header*/
+	.header .logo{
+		max-width: 100px;
+	}
+	.pre-footer .inner-container .default-btn-o-1{
+		padding: 10px;
+		font-size: 14px;
+	}
+	.pre-footer .inner-container .btns{
+		flex-direction: column !important;
+	}
+}
+@media(max-width: 360px){
+	/*Formatting*/
+	.formatting{
+		font-size: 10px;
+	}
+	.formatting .fa{
+		font-size: 10px;
+		padding: 3px;
+	}
+	/*Pagination*/
+	.pagination a{
+		padding: 5px;
+		font-size: 12px;
+		margin: 2px;
+	}
+}
+@media(max-width:330px){
+		/*Header*/
+	.header .logo{
+		max-width: 80px;
+	}
+
+
+
+}
